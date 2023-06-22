@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace interfacees
 {
-    internal class Square : Ishape 
+    internal class Square : Ishape, IComparable<Square>
     {
         double Lenght;
         public Square(double lenght)
